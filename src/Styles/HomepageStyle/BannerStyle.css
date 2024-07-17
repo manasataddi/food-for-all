@@ -1,0 +1,38 @@
+/* src/Pages/Homepage/HomepageView.css */
+
+.banner_section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .banner_image_container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner_image_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .banner_content {
+    position: absolute;
+    text-align: center;
+  }
+  
+  .banner_title {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
