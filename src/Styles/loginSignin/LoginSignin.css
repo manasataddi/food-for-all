@@ -1,0 +1,314 @@
+/* Common styles for login and sign in components */
+
+
+.login_section,
+.signin_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+
+.login_card,
+.signin_card {
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.loginCard_picture,
+.signinCard_picture {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+.login_heading,
+.signin_heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.login_form,
+.signin_form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.login_field,
+.signin_field {
+  margin-bottom: 20px;
+}
+
+
+.login_actions,
+.signin_actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.login_button,
+.signin_button {
+  width: 100%;
+}
+
+
+.login_redirect,
+.signin_redirect {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+/* Styles for larger screens (desktop and laptop) */
+@media (min-width: 1024px) {
+  .login_card,
+  .signin_card {
+    width: 60%;
+    max-width: 600px;
+    padding: 30px;
+  }
+
+
+  .login_heading,
+  .signin_heading {
+    font-size: 2em;
+  }
+
+
+  .login_field,
+  .signin_field {
+    font-size: 1.2em;
+  }
+
+
+  .login_button,
+  .signin_button {
+    font-size: 1.2em;
+  }
+}
+
+
+/* Styles for tablet devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .login_card,
+  .signin_card {
+    width: 80%;
+    max-width: 500px;
+    padding: 25px;
+  }
+
+
+  .login_heading,
+  .signin_heading {
+    font-size: 1.8em;
+  }
+
+
+  .login_field,
+  .signin_field {
+    font-size: 1.1em;
+  }
+
+
+  .login_button,
+  .signin_button {
+    font-size: 1.1em;
+  }
+}
+
+
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+  .login_card,
+  .signin_card {
+    width: 90%;
+    padding: 20px;
+  }
+
+
+  .login_heading,
+  .signin_heading {
+    font-size: 1.5em;
+  }
+
+
+  .login_field,
+  .signin_field {
+    font-size: 1em;
+  }
+
+
+  .login_button,
+  .signin_button {
+    font-size: 1em;
+  }
+}
+/* Common styles for login and sign in components */
+
+
+.login_section,
+.signin_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+
+.login_card,
+.signin_card {
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.loginCard_picture,
+.signinCard_picture {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+.login_heading,
+.signin_heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.login_form,
+.signin_form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.login_field,
+.signin_field {
+  margin-bottom: 20px;
+}
+
+
+.login_actions,
+.signin_actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.login_button,
+.signin_button {
+  width: 100%;
+}
+
+
+.login_redirect,
+.signin_redirect {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+/* Styles for larger screens (desktop and laptop) */
+@media (min-width: 1024px) {
+  .login_card,
+  .signin_card {
+    width: 60%;
+    max-width: 600px;
+    padding: 30px;
+  }
+
+
+  .login_heading,
+  .signin_heading {
+    font-size: 2em;
+  }
+
+
+  .login_field,
+  .signin_field {
+    font-size: 1.2em;
+  }
+
+
+  .login_button,
+  .signin_button {
+    font-size: 1.2em;
+  }
+}
+
+
+/* Styles for tablet devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .login_card,
+  .signin_card {
+    width: 80%;
+    max-width: 500px;
+    padding: 25px;
+  }
+
+
+  .login_heading,
+  .signin_heading {
+    font-size: 1.8em;
+  }
+
+
+  .login_field,
+  .signin_field {
+    font-size: 1.1em;
+  }
+
+
+  .login_button,
+  .signin_button {
+    font-size: 1.1em;
+  }
+}
+
+
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+  .login_card,
+  .signin_card {
+    width: 90%;
+    padding: 20px;
+  }
+
+
+  .login_heading,
+  .signin_heading {
+    font-size: 1.5em;
+  }
+
+
+  .login_field,
+  .signin_field {
+    font-size: 1em;
+  }
+
+
+  .login_button,
+  .signin_button {
+    font-size: 1em;
+  }
+}
