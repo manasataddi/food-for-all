@@ -1,6 +1,6 @@
 import React from "react";
 //import styles
-import "../../../Styles/About/About.css"
+import "../../../Styles/HomepageStyle/About.css"
 //import mui libraries
 import { Button } from "@mui/material";
 

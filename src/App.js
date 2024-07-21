@@ -12,8 +12,8 @@ function App() {
     <>
       <Router>
       <Routes>
-        <Route path="/" element={<LayoutView />}>
-          <Route path="/home" element={<HomepageView />} />
+        <Route element={<LayoutView />}>
+          <Route path="/" element={<HomepageView />} />
         </Route>
       </Routes>
     </Router>
